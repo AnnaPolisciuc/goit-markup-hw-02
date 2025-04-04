@@ -1,34 +1,38 @@
 body{
     color: #434455;
-    font-family: 'Roboto', 'Arial', 'Verdana', 'Tahoma', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
 }
 
 .page-nav .link
 {
-    color: #434455;
+    color: #2e2f42;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     list-style: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .page-nav .link:hover,
 .page-nav .link:focus
 {
-color: #4D5AE5;
+    color: #404bbf;
 font-weight: 400;
 }
 
 .address .link{
     color: #434455;
     text-decoration: none;
-    font-style: normal;
     font-size: 16px;
     line-height: 24px;
+    font-style: normal;
+    letter-spacing: 0.02em;
 }
 .address .link:focus,
 .address .link:hover
 {
-    color: #4D5AE5;
+    color: #404bbf;
 }
 
 h1 {
@@ -57,8 +61,6 @@ ul {
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-    width: 169px;
-    height: 56px;
     font-size: 16px;
     cursor: pointer;
 }
@@ -69,7 +71,6 @@ button:focus {
 
 .title {
     background-color: #434455;
-    height: 600px;
     color: #FFFFFF;
 }
 .invisible-title {
@@ -83,20 +84,23 @@ button:focus {
 footer {
     background-color: #2E2F42;
     color: #F4F4FD;
-    height: 312px;
 }
 .logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo-web {
     color:#4D5AE5;
 }
 .logo-studio-header {
-    color: #2E2F42;
+    color: #2e2f42;
 }
 .logo-studio-footer {
     color: #F4F4FD;
