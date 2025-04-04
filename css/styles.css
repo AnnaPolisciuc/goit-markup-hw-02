@@ -1,8 +1,6 @@
-body {
+body{
     color: #434455;
     font-family: 'Roboto', 'Arial', 'Verdana', 'Tahoma', sans-serif;
-    letter-spacing: 0,02cm;
-
 }
 
 .page-nav .link
@@ -92,7 +90,6 @@ footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    letter-spacing: 0,03cm;
 }
 
 .logo-web {
