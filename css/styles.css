@@ -1,42 +1,81 @@
 body {
     color: #434455;
+    font-family: 'Roboto', 'Arial', 'Verdana', 'Tahoma', sans-serif;
+    letter-spacing: 0,02cm;
 
 }
 
 .page-nav .link
 {
     color: #434455;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
 }
 .page-nav .link:hover,
 .page-nav .link:focus
 {
 color: #4D5AE5;
+font-weight: 400;
 }
 
-.adress {
+.address .link{
     color: #434455;
+    text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
-.adress .link:focus
-.adress .link:hover
+.address .link:focus,
+.address .link:hover
 {
     color: #4D5AE5;
 }
 
-
-
+h1 {
+    font-size: 56px;
+    text-align: center;
+    line-height: 60px;
+}
+h2 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+}
+h3 {
+    font-size: 20px;
+    line-height: 24px;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    line-height: 24px;
+}
+ul {
+    list-style: none;
+}
 
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     width: 169px;
     height: 56px;
-
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover,
+button:focus {
+    background-color: #404BBF;
 }
 
 .title {
     background-color: #434455;
     height: 600px;
     color: #FFFFFF;
+}
+.invisible-title {
+    color: transparent;
 }
 
 .our-team {
@@ -45,5 +84,23 @@ button {
 
 footer {
     background-color: #2E2F42;
+    color: #F4F4FD;
+    height: 312px;
+}
+.logo {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0,03cm;
+}
+
+.logo-web {
+    color:#4D5AE5;
+}
+.logo-studio-header {
+    color: #2E2F42;
+}
+.logo-studio-footer {
     color: #F4F4FD;
 }
