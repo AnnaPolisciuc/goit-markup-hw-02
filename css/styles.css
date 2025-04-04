@@ -1,0 +1,49 @@
+body {
+    color: #434455;
+
+}
+
+.page-nav .link
+{
+    color: #434455;
+}
+.page-nav .link:hover,
+.page-nav .link:focus
+{
+color: #4D5AE5;
+}
+
+.adress {
+    color: #434455;
+}
+.adress .link:focus
+.adress .link:hover
+{
+    color: #4D5AE5;
+}
+
+
+
+
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    width: 169px;
+    height: 56px;
+
+}
+
+.title {
+    background-color: #434455;
+    height: 600px;
+    color: #FFFFFF;
+}
+
+.our-team {
+    background-color: #F4F4FD;
+}
+
+footer {
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
