@@ -13,6 +13,7 @@ body{
     list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    list-style: none;
 }
 .page-nav .link:hover,
 .page-nav .link:focus
@@ -20,7 +21,9 @@ body{
     color: #404bbf;
 font-weight: 400;
 }
-
+.address {
+    font-style: normal;
+}
 .address .link{
     color: #434455;
     text-decoration: none;
@@ -28,24 +31,26 @@ font-weight: 400;
     line-height: 24px;
     font-style: normal;
     letter-spacing: 0.02em;
+    list-style: none;
 }
+
 .address .link:focus,
 .address .link:hover
 {
     color: #404bbf;
 }
 
-h1 {
+.site-title {
     font-size: 56px;
     text-align: center;
     line-height: 60px;
 }
-h2 {
+.second-title {
     font-size: 36px;
     text-align: center;
     line-height: 40px;
 }
-h3 {
+.thirt-title {
     font-size: 20px;
     line-height: 24px;
 }
@@ -58,19 +63,23 @@ ul {
     list-style: none;
 }
 
-button {
+.button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-size: 16px;
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
-button:hover,
-button:focus {
+.button:hover,
+.button:focus {
     background-color: #404BBF;
 }
 
+
 .title {
-    background-color: #434455;
+    background-color: #2e2f42;
     color: #FFFFFF;
 }
 .invisible-title {
@@ -79,6 +88,7 @@ button:focus {
 
 .our-team {
     background-color: #F4F4FD;
+    list-style: none;
 }
 
 footer {
@@ -96,9 +106,6 @@ footer {
     color: #4d5ae5;
 }
 
-.logo-web {
-    color:#4D5AE5;
-}
 .logo-studio-header {
     color: #2e2f42;
 }
